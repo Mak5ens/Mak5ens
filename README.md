@@ -21,7 +21,7 @@ flowchart LR
 
 | Repo | What it shows | Write-up |
 | -- | -- | -- |
-| [llmops-gateway](https://github.com/Mak5ens/llmops-gateway) | One entry point to every LLM: per-team keys and budgets, French PII anonymized with Presidio before inference, self-hosted Langfuse tracing | *Anonymiser avant d'inférer* (coming) |
+| [llmops-gateway](https://github.com/Mak5ens/llmops-gateway) | One entry point to every LLM: per-team keys and budgets, French PII anonymized with Presidio before inference, self-hosted Langfuse tracing | [*Anonymize before inference*](https://maxence-labbe.fr/en/articles/anonymize-before-inference/) ([FR](https://maxence-labbe.fr/articles/anonymiser-avant-dinferer/)) |
 | [llmops-platform](https://github.com/Mak5ens/llmops-platform) | Kubernetes from Terraform to GitOps with ArgoCD, vLLM scaled to zero by KEDA, GPU observability and cost per team, on Scaleway | *Une plateforme Kubernetes de A à Z en GitOps* · *Scaler des LLM à zéro* (coming) |
 | [f1-strategy-analyst](https://github.com/Mak5ens/f1-strategy-analyst) | LangGraph agent writing sourced F1 strategy debriefs, human validation before publishing, an evaluation CI that blocks regressions | *Tester une IA comme on teste du code* · *Un agent IA qui sait s'arrêter pour demander* (coming) |
 
